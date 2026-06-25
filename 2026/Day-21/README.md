@@ -332,3 +332,26 @@ Write a short paragraph in markdown form explaining:
 8. COPY the URL of your Repo and create a new POST on Linkdin and paste it with some notes to tell the audience what you have written. At the end of your post don't forget to put #NIT #NIT Houston #NIT Nigeria #NIT Pakistan
 
 ---
+
+
+# Day 21: Absolute and Relative Paths, File and Directory Creation
+
+## Absolute vs. Relative Paths
+
+The difference between **absolute** and **relative** paths lies in how they specify the location of a file or folder.
+
+| **Absolute Path** | **Relative Path** |
+|-------------------|-------------------|
+| Specifies the complete location of a file or folder from the root directory. | Specifies the location of a file or folder relative to the current working directory. |
+| Always starts from the root of the file system (e.g., `C:\` on Windows or `/` on Linux). | Does not start from the root; it starts from the current directory. |
+| Remains the same regardless of your current location. | Changes depending on your current working directory. |
+| Usually longer because it contains the full directory structure. | Usually shorter because it only includes the necessary path from the current location. |
+
+### Examples
+
+#### Windows
+
+Suppose a file named `report.docx` is stored in:
+
+```text
+C:\Users\Iyanuoluwa\Documents\Reports\report.docx
